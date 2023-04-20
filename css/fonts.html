@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 2em;
+        }
+
+        h2 {
+            font-size: calc(0.75rem + 1.5vw);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        h3 {
+            font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
+ 	 font-weight: 800;
+
+        }
+
+        p{
+            font-variant: small-caps;
+            font-weight: bold;
+        }
+    </style>
+
+<h1>Tämä on h1 otsikko, ei responsiivinen</h1>
+<h2>Tässä on h2 otsikko, responsiivinen, vaihda sivun leveyttä, niin huomaat.</h2>
+<h3>Tekstin koon kiinnitys, responsiivinen</h3>
+<p>Tässä on p eli kappale.</p> 
+
+<style>
+
+    body{
+        font-size: 14px;
+        font-family: Arial,sans-serif;
+    }
+   
+        ul {
+            list-style: circle inside;
+        }
+
+        ul li {
+        
+        list-style-image: url("/images/smile4.png");
+        margin: 5px;
+    }
+        ol {
+            list-style: upper-latin outside;
+        }
+
+        ol li {
+        background: rgba(251, 92, 92, 0.518);
+        padding: 5px;
+        margin: 5px;
+        }
+        ol.in li {
+        list-style-position: inside;
+list-style-type: square;
+
+        }
+        ol.out li {
+        list-style-position: outside;
+        }
+
+    </style>
+
+
+</body>
+</html>
