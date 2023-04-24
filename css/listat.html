@@ -7,6 +7,74 @@
     <title>Document</title>
 </head>
 <body>
+    <nav class="nav">
+        <ol>
+            <li class=""/li>
+        </ol>
+    </nav>
+    <style>
+
+        body{
+            font-size: 14px;
+            font-family: Arial,sans-serif;
+        }
+       
+            ul {
+                list-style: circle inside;
+            }
+    
+            ul li {
+            
+            list-style-image: url("/images/smile4.png");
+            margin: 5px;
+        }
+            ol {
+                list-style: upper-latin outside;
+            }
+    
+            ol li {
+            background: rgba(251, 92, 92, 0.518);
+            padding: 5px;
+            margin: 5px;
+            }
+            ol.in li {
+            list-style-position: inside;
+    list-style-type: square;
+    
+            }
+            ol.out li {
+            list-style-position: outside;
+            }
+    
+    </style>
+    
+    <h2>Järjestämätön kuvallinen lista</h2>
+        <ul>
+            <li>Listan asia 1</li>
+            <li>Listan asia 2</li>
+            <li>Listan asia 3</li>
+        </ul>
+        <h2>Järjestetty lista</h2>
+        <ol>
+            <li>Listan asia 1</li>
+            <li>Listan asia 2</li>
+            <li>Listan asia 3</li>
+        </ol>
+    
+        <h2>Listan numero sisällä</h2>
+        <ol class="in">
+            <li>Kiinnitä turvavyösi</li>
+            <li>Käynnistä auton moottori ja katso tarkemmin mittariston varoitusmerkkien varalta.</li>
+            <li>Katso ympärillesi huolellisesti ja mene</li>
+        </ol>
+        <h2>Luettelomerkin sijainti ulkopuolella</h2>
+        <ol class="out">
+            <li>Kiinnitä turvavyösi</li>
+            <li>Käynnistä auton moottori ja katso tarkemmin mittariston varoitusmerkkien varalta.</li>
+            <li>Katso ympärillesi huolellisesti ja mene</li>
+        </ol>
+    
+    
     
 </body>
 </html>
