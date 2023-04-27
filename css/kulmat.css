@@ -1,0 +1,15 @@
+#demo {
+
+    font-size: 4rem;
+    font-family: Quantico, Verdana, sans-serif;
+    background: linear-gradient(to right, white, silver);
+    border: solid gray 0.2em;
+    border-radius: 1em;
+    padding: 0.1em;
+}
+#demotext {
+    transform: skewx(20dmg);
+    display: inline-block;
+    
+    
+}
